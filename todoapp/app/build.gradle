@@ -12,6 +12,8 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
+
+        flavorDimensions "something"
     }
 
     buildTypes {
@@ -55,6 +57,7 @@ android {
             events 'passed', 'skipped', 'failed', 'standardOut', 'standardError'
         }
     }
+    buildToolsVersion '26.0.3'
 }
 
 /*
